@@ -10,11 +10,31 @@
 position: absolute;
 width: 1139px;
 height: 580px;
-left: 0;
-right: 0;
+/* left: 0;
+right: 0; */
 /* padding-top: 131px; */
 
 
 background-image: url("assets/Hero-bg.png");
+background-size: cover;
+}
+.submain
+{
+    position: absolute;
+    width: 888px;
+    height: 517px;
+
+}
+.pic
+{
+    /* Group */
+background-image: url("assets/Group.png");
+width: 213px;
+height: 213px;
+/* left: 257.67%;
+right: -257.67%;
+top: 0%;
+bottom: 0%;
+transform: rotate(180.00deg); */
 background-size: cover;
 }
