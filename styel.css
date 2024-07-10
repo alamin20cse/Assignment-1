@@ -368,3 +368,41 @@ text-decoration-line: underline;
     border-radius: 16px;
 
 }
+.fifthsection-div1
+{
+
+ height: 275px;
+ width: 100%;
+ padding: 30px;
+ background-image: url("assets/handshake.jpg");
+ background-size: cover;
+ background-position: center;
+
+ 
+
+
+}
+.st 
+{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.ip 
+{
+    box-sizing: border-box;
+border: none;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+width: 530px;
+height: 45px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
