@@ -305,7 +305,7 @@ text-align: center;
    /* Frame 10 */
 position: static;
 width: 350px;
-height: 250px;
+height: 280px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
@@ -373,7 +373,8 @@ text-decoration-line: underline;
 
  height: 275px;
  width: 100%;
- padding: 30px;
+ /* padding: 30px; */
+ padding: 10%;
  background-image: url("assets/handshake.jpg");
  background-size: cover;
  background-position: center;
@@ -391,6 +392,8 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .ip 
 {
@@ -398,11 +401,54 @@ text-align: center;
 border: none;
 border-radius: 8px;
 
-background: rgb(255, 255, 255);
-width: 530px;
-height: 45px;
+
+/* width: 530px;
+height: 45px; */
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+/* gap: 200px; */
 align-items: center;
 }
+.ip input
+{
+    width: 530px;
+height: 45px;
+background: rgb(255, 255, 255);
+border-radius: 16px;
+}
+.fifthsection-div1 p{
+
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: .7;
+
+}
+.fifthsection-div1 h1
+{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+#cardboxid2
+{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+#cardboxid3
+{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+
+    
